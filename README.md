@@ -20,7 +20,7 @@ STEP 3
 Import Tabel
 1. Cretae database (mis: cruddb)
 2. import tabel dan data awal sesuai dengan SQL berikut
-   --------------------
+   ```
    CREATE TABLE IF NOT EXISTS `user` (
 	  `ID` int(11) NOT NULL,
 	  `Firstname` varchar(50) DEFAULT NULL,
@@ -34,7 +34,7 @@ Import Tabel
 	INSERT INTO `user` (`ID`, `Firstname`, `Lastname`, `City`, `Country`) VALUES
 		(1, 'Leo', 'Raja', 'Bandung', 'Indonesia'),
 		(2, 'Dedi', 'Alan', 'Jakarta', 'Indonesia');
-	-----------------------
+   ```
 langkah ini bisa dilihat di link  https://www.youtube.com/watch?v=xBbqDLXrZGY
 untuk bagian import ada di meni 2:05 (kurang lebih)
 
